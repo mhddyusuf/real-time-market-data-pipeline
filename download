@@ -1,0 +1,30 @@
+# Python environments and generated files
+env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Private data, logs, and experiment artifacts
+data/
+logs/
+*.log
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
