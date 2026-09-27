@@ -54,6 +54,10 @@ Python, asyncio, WebSockets, aiofiles, pandas, NumPy, Apache Parquet, Snappy, an
 - `requirements.txt`: dependency reference for the ingestion component.
 - `.gitignore`: exclusions for local configuration, datasets, and generated artifacts.
 
-Provider-specific access procedures, session material, private datasets, and account information are excluded from the public showcase. Executable public examples should use synthetic data or an explicitly authorized data source.
+## About This Repository
 
-The modeling and backtesting components concern offline research. This showcase focuses on design and methodology; validated predictive-performance results are outside its scope.
+This repository contains project documentation and selected configuration examples. The full implementation is maintained privately because parts of the code are tied to broker-specific access procedures, session handling, and private datasets.
+
+The files shared here describe the project’s workflow and configuration without exposing account information or access methods. Any public code examples will use synthetic data or an explicitly authorized data source.
+
+Modeling and backtesting are part of the project’s offline research. The results listed above describe data collection and processing, not validated prediction accuracy or trading profitability.
